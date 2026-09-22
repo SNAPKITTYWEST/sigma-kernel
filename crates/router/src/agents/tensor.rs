@@ -1,3 +1,17 @@
+// This Source Code Form is governed by the
+// Node-Locked Network Public License v1.0 (NLNPL-1.0).
+//
+// File-level copyleft applies to this Covered File.
+//
+// Network-service use may trigger source-disclosure obligations.
+//
+// Execution may require a valid Licensor-issued Node Key.
+//
+// See LICENSE for complete terms.
+//
+// PRIOR ART BADGE: April 14, 2026 — Project inception.
+// SPDX-License-Identifier: LicenseRef-NLNPL-1.0
+
 //! TensorCore — lightweight emergent signal engine.
 //!
 //! Works without the `candle` feature using deterministic heuristics.

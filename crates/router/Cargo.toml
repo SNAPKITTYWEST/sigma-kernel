@@ -3,6 +3,9 @@ name = "deterministic-router"
 version = "0.1.0"
 edition = "2021"
 description = "Zero-LLM deterministic intent routing with multi-head tensor scoring"
+license-file = "../../LICENSE"
+repository = "https://github.com/SNAPKITTYWEST/devflow-finance-twin"
+keywords = ["router", "deterministic", "intent-classification", "tensor"]
 
 [dependencies]
 tokio = { version = "1", features = ["full"] }

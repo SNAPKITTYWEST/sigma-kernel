@@ -1,0 +1,452 @@
+NODE-LOCKED NETWORK PUBLIC LICENSE
+Version 1.0
+("NLNPL-1.0")
+
+Copyright (c) 2026 SnapKitty Collective LLC.
+All rights reserved except as expressly granted by this License.
+
+Licensing Contact:
+Jessica
+jessica@collectivekitty.com
+
+============================================================
+1. PURPOSE
+============================================================
+
+This License establishes:
+
+(a) file-level copyleft for Covered Files;
+(b) network-use source disclosure for Covered Software;
+(c) cryptographic execution authorization through a Node Key;
+(d) preservation of provenance, attribution, and license notices; and
+(e) automatic termination upon material breach, subject to applicable law.
+
+This is an independent license.
+
+It is inspired structurally by file-level copyleft concepts associated
+with the Mozilla Public License and network-source concepts associated
+with the GNU Affero General Public License, but it is NOT the Mozilla
+Public License and is NOT the GNU Affero General Public License.
+
+============================================================
+2. DEFINITIONS
+============================================================
+
+"Covered Software" means any Source Code Form to which this License
+has been applied, together with Covered Modifications.
+
+"Covered File" means:
+
+(a) an original source file distributed under this License;
+
+(b) any source file created by modifying, adding to, deleting from,
+or incorporating material from a Covered File; and
+
+(c) any new source file containing Covered Software.
+
+"Larger Work" means a work that combines Covered Software with
+independent material contained in separate files.
+
+"Modification" means any addition, deletion, transformation,
+adaptation, translation, or other change to a Covered File.
+
+"Source Code Form" means the preferred form for making modifications.
+
+"Executable Form" means any form other than Source Code Form.
+
+"Network Service" means making any substantial functionality of the
+Covered Software available to a third party through a computer network,
+remote interface, hosted service, API, distributed protocol, agent
+system, inference endpoint, orchestration service, or similar mechanism.
+
+"Corresponding Service Source" means all source code and associated
+materials reasonably necessary to build, install, run, modify, and
+operate the version of the Covered Software used to provide the
+Network Service.
+
+"Node Key" means a cryptographically verifiable authorization artifact
+issued or expressly authorized by the Licensor.
+
+"Node Verification Mechanism" means the software, cryptographic
+material, protocol, trust anchor, or verification logic used to
+validate a Node Key.
+
+============================================================
+3. LICENSE GRANT
+============================================================
+
+Subject to continuous compliance with this License, each copyright
+holder grants You a worldwide, non-exclusive, royalty-free copyright
+license to:
+
+(a) use the Covered Software;
+
+(b) reproduce the Covered Software;
+
+(c) modify Covered Files;
+
+(d) distribute Covered Software;
+
+(e) create Larger Works; and
+
+(f) operate Covered Software through a Network Service,
+
+provided that all applicable conditions of this License are satisfied.
+
+No trademark rights are granted.
+
+============================================================
+4. FILE-LEVEL COPYLEFT
+============================================================
+
+4.1 Covered Files
+
+Every Covered File that You distribute in Source Code Form MUST remain
+licensed under this License.
+
+4.2 Modified Files
+
+If You modify a Covered File, that modified file MUST remain available
+under this License.
+
+4.3 Larger Works
+
+You may combine Covered Software with independent material in separate
+files and distribute the resulting Larger Work under terms of Your
+choice for those independent files.
+
+However:
+
+(a) Covered Files remain governed by this License;
+
+(b) You may not impose terms that prevent recipients from exercising
+rights granted by this License with respect to Covered Files; and
+
+(c) the requirements of Sections 5 and 6 remain applicable where their
+conditions are triggered.
+
+4.4 Source Availability
+
+When distributing Covered Software in Executable Form, You MUST make
+the corresponding Source Code Form of Covered Files available by
+reasonable means.
+
+============================================================
+5. NETWORK-SERVICE SOURCE OBLIGATION
+============================================================
+
+5.1 Network Trigger
+
+If You modify Covered Software and make functionality of that modified
+Covered Software available to third parties through a Network Service,
+You MUST provide those users a clear and reasonably accessible means
+to obtain the Corresponding Service Source for the Covered Software
+used to provide that service.
+
+5.2 Scope
+
+Corresponding Service Source MUST include, to the extent necessary to
+operate the modified Covered Software:
+
+(a) Covered Files;
+
+(b) modifications to Covered Files;
+
+(c) build scripts;
+
+(d) configuration necessary to build and operate the Covered Software;
+
+(e) interface definitions required for the Covered Software to perform
+its network-service function; and
+
+(f) source for service-side modifications that form a derivative portion
+of the Covered Software.
+
+5.3 Independent Components
+
+Independent programs communicating with Covered Software solely through
+ordinary, documented interfaces are not automatically Covered Files
+merely because communication occurs across process or network
+boundaries.
+
+============================================================
+6. CRYPTOGRAPHIC EXECUTION AUTHORIZATION
+============================================================
+
+6.1 Mandatory Authorization
+
+Execution of Covered Software, or execution of a Larger Work to the
+extent such execution invokes Covered Software, requires a valid
+Node Key where the Licensor has designated that release as
+"Node-Key Required."
+
+A Node-Key requirement MUST be clearly disclosed in the applicable
+release, file notice, manifest, or license metadata.
+
+6.2 Node Verification Mechanism
+
+You may inspect and modify Source Code Form as otherwise permitted by
+this License.
+
+However, exercising rights granted by this License does not grant a
+right to defeat an applicable Node-Key requirement.
+
+6.3 Prohibited Circumvention
+
+Where a release is designated Node-Key Required, You may not knowingly:
+
+(a) disable the Node Verification Mechanism for the purpose of executing
+the Covered Software without authorization;
+
+(b) falsify or spoof a Node Key;
+
+(c) alter verification results for the purpose of bypassing required
+authorization;
+
+(d) distribute a patch, key generator, spoofing mechanism, or other
+tool whose principal purpose is defeating the Node-Key requirement; or
+
+(e) represent an unauthorized node as an authorized node.
+
+6.4 Security Research
+
+Good-faith security research, interoperability analysis, vulnerability
+testing, cryptographic review, and inspection are not prohibited merely
+because they analyze or expose weaknesses in the Node Verification
+Mechanism, provided such activity does not itself constitute
+unauthorized operational use under this License.
+
+6.5 Larger Works
+
+The Node-Key condition applies only to execution of the Covered Software
+and functionality dependent upon it.
+
+Nothing in this License automatically converts independent files of a
+Larger Work into Covered Files solely because those files are combined
+with Covered Software.
+
+============================================================
+7. CRYPTOGRAPHIC BINDING
+============================================================
+
+The Licensor may implement Node authorization using one or more of:
+
+(a) Ed25519 or equivalent digital signatures;
+
+(b) signed authorization payloads;
+
+(c) hardware-backed device identity;
+
+(d) TPM-backed attestations;
+
+(e) machine or deployment identifiers;
+
+(f) encrypted runtime state;
+
+(g) protected configuration;
+
+(h) signed genesis state;
+
+(i) peer-authentication credentials;
+
+(j) trust-anchor verification; or
+
+(k) protocol-level authorization.
+
+The implementation method does not expand the copyright grant or create
+rights beyond those expressly stated in this License.
+
+============================================================
+8. NETWORK PEER AUTHENTICATION
+============================================================
+
+Covered Software MAY require authenticated peers to present:
+
+(a) a valid Node Key;
+
+(b) a valid cryptographic identity;
+
+(c) a valid protocol certificate; or
+
+(d) another Licensor-approved authorization artifact.
+
+Authorized peers MAY reject network connections from nodes that cannot
+satisfy published authentication requirements.
+
+============================================================
+9. PROVENANCE AND NOTICES
+============================================================
+
+You MUST preserve:
+
+(a) copyright notices;
+
+(b) this License notice;
+
+(c) provenance notices;
+
+(d) modification notices required by this License; and
+
+(e) notices identifying materially modified Covered Files.
+
+You MUST NOT knowingly misrepresent the origin of Covered Software.
+
+============================================================
+10. NO SECRET CONVERSION OF COVERED FILES
+============================================================
+
+You may not remove a Covered File from the scope of this License merely
+by:
+
+(a) renaming it;
+
+(b) translating it;
+
+(c) changing formatting;
+
+(d) moving it into another directory;
+
+(e) changing programming languages while preserving protectable
+expression; or
+
+(f) embedding substantially the same Covered Software into another file.
+
+Whether a particular adaptation constitutes a derivative work remains
+subject to applicable copyright law.
+
+============================================================
+11. TERMINATION
+============================================================
+
+11.1 Material Breach
+
+A material failure to comply with Sections 4, 5, 6, or 9 may terminate
+the rights granted under this License.
+
+11.2 Automatic Termination
+
+To the maximum extent permitted by applicable law, rights granted under
+this License terminate automatically upon a material breach that remains
+uncured.
+
+11.3 Cure
+
+Unless the Licensor provides different written terms, a first-time
+violator who completely ceases the violation within thirty (30) days
+after receiving written notice may have rights reinstated by written
+confirmation from the Licensor.
+
+11.4 No Adjudication by License Text
+
+A statement that conduct violates this License does not by itself
+establish civil or criminal liability. Liability and remedies are
+determined under applicable law.
+
+============================================================
+12. ANTI-CIRCUMVENTION
+============================================================
+
+The parties acknowledge that the Node Verification Mechanism may
+constitute a technological authorization mechanism.
+
+Nothing in this License is intended to predetermine whether any
+particular act constitutes unlawful circumvention under 17 U.S.C.
+1201 or any analogous law.
+
+The contractual restriction in Section 6 applies independently of
+whether separate statutory anti-circumvention remedies are available.
+
+============================================================
+13. NO IMPLIED COMMERCIAL LICENSE
+============================================================
+
+No proprietary, enterprise, hosted-service, trademark, patent, or
+alternative commercial license is implied.
+
+Separate commercial terms may be obtained from the Licensor.
+
+============================================================
+14. PATENTS
+============================================================
+
+No patent rights are granted except those expressly stated in a separate
+written patent grant, if any.
+
+============================================================
+15. TRADEMARKS
+============================================================
+
+This License does not grant permission to use any trademark, trade name,
+logo, branding, service mark, or trade dress of the Licensor.
+
+============================================================
+16. DISCLAIMER OF WARRANTY
+============================================================
+
+THE COVERED SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT, TO THE MAXIMUM
+EXTENT PERMITTED BY LAW.
+
+============================================================
+17. LIMITATION OF LIABILITY
+============================================================
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, NO COPYRIGHT HOLDER OR
+CONTRIBUTOR SHALL BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL,
+CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES ARISING FROM USE OF THE
+COVERED SOFTWARE.
+
+============================================================
+18. SEVERABILITY
+============================================================
+
+If any provision is held unenforceable, that provision shall be limited
+or reformed only to the minimum extent necessary, and the remaining
+provisions remain effective where permitted by law.
+
+============================================================
+19. COMPLETE LICENSE
+============================================================
+
+This License constitutes the terms governing Covered Software unless
+the Licensor and applicable licensee execute a separate written
+agreement.
+
+============================================================
+20. SOURCE FILE NOTICE
+============================================================
+
+Recommended file header:
+
+    This Source Code Form is governed by the
+    Node-Locked Network Public License v1.0 (NLNPL-1.0).
+
+    File-level copyleft applies to this Covered File.
+
+    Network-service use may trigger source-disclosure obligations.
+
+    Execution may require a valid Licensor-issued Node Key.
+
+    See LICENSE for complete terms.
+
+============================================================
+21. OPTIONAL NODE-KEY MANIFEST
+============================================================
+
+A Node-Key Required release SHOULD contain a machine-readable manifest:
+
+{
+  "license": "NLNPL-1.0",
+  "node_key_required": true,
+  "signature_algorithm": "Ed25519",
+  "authorization_scope": "<defined-scope>",
+  "license_contact": "<contact>",
+  "release_hash": "<digest>"
+}
+
+============================================================
+SPDX
+============================================================
+
+SPDX-License-Identifier: LicenseRef-NLNPL-1.0

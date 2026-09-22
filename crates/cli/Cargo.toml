@@ -3,6 +3,9 @@ name = "sigma-router-cli"
 version = "0.1.0"
 edition = "2021"
 description = "Unified CLI for Sigma Kernel admissibility gate + Deterministic Router"
+license-file = "../../LICENSE"
+repository = "https://github.com/SNAPKITTYWEST/devflow-finance-twin"
+keywords = ["cli", "sigma-kernel", "router", "sovereign"]
 
 [dependencies]
 tokio = { version = "1", features = ["full"] }
