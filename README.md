@@ -244,26 +244,6 @@ java -jar alloy.jar
 # Run the verification commands
 ```
 
-## The S7 Bug Fix
-
-The original implementation had a critical bug in backtracking:
-
-```rust
-// BROKEN: multiplicity leaks
-(*self.nodes.add(current_idx)).prime_val = 0;
-```
-
-When a branch failed, `prime_val` was reset to Nil but `multiplicity` was not. On the next forward pass at the same depth, multiplicity accumulated across failed branches, corrupting the state.
-
-**The fix:**
-
-```rust
-// FIXED: both fields reset
-(*self.nodes.add(current_idx)).prime_val = 0;
-(*self.nodes.add(current_idx)).multiplicity = 0;
-```
-
-This ensures backtracking restores the exact pre-branch state (Invariant S7).
 
 ## References
 
