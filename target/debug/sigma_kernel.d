@@ -1,0 +1,1 @@
+C:\Users\jessi\Desktop\sigma-kernel\target\debug\sigma_kernel.exe: C:\Users\jessi\Desktop\sigma-kernel\crates\sigma-kernel\src\lib.rs C:\Users\jessi\Desktop\sigma-kernel\crates\sigma-kernel\src\main.rs

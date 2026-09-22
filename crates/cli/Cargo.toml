@@ -1,0 +1,17 @@
+[package]
+name = "sigma-router-cli"
+version = "0.1.0"
+edition = "2021"
+description = "Unified CLI for Sigma Kernel admissibility gate + Deterministic Router"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+sigma-kernel-lib = { path = "../sigma-kernel" }
+deterministic-router = { path = "../router" }
+
+[[bin]]
+name = "sigma-router"
+path = "src/main.rs"

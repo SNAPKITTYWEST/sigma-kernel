@@ -1,0 +1,12 @@
+[package]
+name = "deterministic-router"
+version = "0.1.0"
+edition = "2021"
+description = "Zero-LLM deterministic intent routing with multi-head tensor scoring"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+sigma-kernel-lib = { path = "../sigma-kernel" }
