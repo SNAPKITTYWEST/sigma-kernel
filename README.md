@@ -287,3 +287,4 @@ VIII.   Prime-Indexed Sedona Spine (type-level DAG + borrow checker)
 ```
 
 The Sigma Kernel bridges abstract MT theory and operational reality: every tensor state that enters the ledger is certified admissible by four independent gates, each enforced at a different layer (structural, energetic, algorithmic, cryptographic).
+Defunct to NIL ADR 0002
